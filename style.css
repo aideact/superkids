@@ -194,3 +194,17 @@ body {
         font-size: 22px;
     }
 }
+
+/* Logo 图片样式 */
+.logo img {
+  height: 50px;
+  width: auto;
+  display: block;
+  object-fit: contain;
+}
+
+/* 清除原来的文字样式避免冲突 */
+.logo {
+  font-size: 0; /* 隐藏文字（如果还有残留） */
+  line-height: 1;
+}
